@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.input-fields-sub-container {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  width: 450px;
+  padding: 3rem;
+}
+
+.input-fields-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-button.MuiButton-root {
+  width: -webkit-fill-available;
+  padding: 10px;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.signup-title {
+  color: #1e1e1e !important;
+  text-align: center;
+  font-family: Roboto !important;
+  font-size: 64px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  margin-bottom: 50px !important;
+}
+
+.checbox-text-style {
+  color: #3d3d3d;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.to-login-link-text {
+  color: #838383 !important;
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 16px !important;
+}
+
+.divider.MuiDivider-root {
+  height: 40px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-input {
+  width: 50px !important;
+  height: 50px !important;
+  outline: none;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  background: #fff;
+  color: #000;
+}
+
+.verification-title {
+  color: #1e1e1e;
+  font-family: Roboto !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  margin-bottom: 10px !important;
+  margin-top: 50px !important;
+}
+
+.verification-decription {
+  color: #838383 !important;
+  font-family: Roboto !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-bottom: 40px !important;
+}
+
+.otp-timer {
+  color: #0360d7 !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-align: center;
+  margin-top: 30px !important;
+}
+
+.resend-otp-button.MuiButton-root {
+  color: #0360d7;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  margin-top: 15px;
+  text-transform: capitalize;
+  left: 32%;
+}
+
+.upload-files-title {
+  color: #1e1e1e !important;
+  font-family: Roboto !important;
+  font-size: 32px !important;
+  font-weight: 500;
+  text-align: center;
+}
+
+.upload-files-subtitle {
+  color: #838383 !important;
+  font-family: Roboto !important;
+  font-size: 18px !important;
+  font-weight: 400;
+  margin-top: 20px !important;
+  text-align: center;
+}
+
+.upload-files-main-container {
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 24px;
+  backdrop-filter: blur(6.578947067260742px);
+  padding: 3rem;
+  position: relative;
+}
+
+.document-icon {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 10.52632px 39.47368px 0px rgba(120, 120, 120, 0.15);
+  backdrop-filter: blur(6.578947067260742px);
+}
+
+.pdf-icon {
+  left: 5%;
+  position: relative;
+}
+.icons-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.word-icon {
+  left: 85%;
+  position: relative;
+}
+.excel-icon {
+  left: 15%;
+  position: relative;
+}
+.sheets-icon {
+  left: 75%;
+  position: relative;
+}
+.drop-zone-container {
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 24px;
+  backdrop-filter: blur(6.578947067260742px);
+  padding: 1rem;
+  position: relative;
+}
+.dropzone {
+  border-radius: 10px;
+  border: 1px dashed #838383;
+  background: #fff;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropzone-text {
+  color: #838383;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pdf-thumbnail {
+  border-radius: 10px;
+  background: #f3f2f3 !important;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+  width: 1rem;
+}
+.pdf-page {
+  width: min-content;
+  height: 100vh;
+}
+.upload-files-heading {
+  color: #1e1e1e !important;
+  font-family: Roboto !important;
+  font-size: 20px !important;
+  font-weight: 500;
+  line-height: normal !important;
+  margin-bottom: 30px !important;
+}
